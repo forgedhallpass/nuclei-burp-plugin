@@ -51,7 +51,6 @@
         <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
         <maven-release-plugin.version>3.0.0-M7</maven-release-plugin.version>
 
-        <burp-extender-api.version>2.3</burp-extender-api.version>
         <snakeyaml.version>1.33</snakeyaml.version>
         <gson.version>2.10.1</gson.version>
         <rsyntaxtextarea.version>3.3.2</rsyntaxtextarea.version>
@@ -59,13 +58,14 @@
 
         <junit-jupiter.version>5.9.2</junit-jupiter.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+        <montoya-api.version>2023.5</montoya-api.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>net.portswigger.burp.extender</groupId>
-            <artifactId>burp-extender-api</artifactId>
-            <version>${burp-extender-api.version}</version>
+            <groupId>net.portswigger.burp.extensions</groupId>
+            <artifactId>montoya-api</artifactId>
+            <version>${montoya-api.version}</version>
             <scope>provided</scope>
         </dependency>
 

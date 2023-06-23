@@ -62,7 +62,7 @@ public final class NucleiGeneratorSettings extends GeneralSettings {
 
     public static final class Builder {
         private final GeneralSettings generalSettings;
-        private final URL targetUrl;
+        private final URL targetUrl; // TODO should be a list of URLs
         private final String templateYaml;
         private Map<String, String> yamlFieldDescriptionMap;
 
